@@ -137,6 +137,7 @@ header {
     display: flex;
     flex-direction: column;
     letter-spacing: 1px;
+    align-items: center;
 
 
 }
