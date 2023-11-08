@@ -9,6 +9,7 @@ body {
     padding: 0;
     box-sizing:content-box;
     flex-wrap: wrap;
+    position: relative;
 
 }
 .barra2 a img{
@@ -24,7 +25,7 @@ header {
     left: 0;
     width: 100%;
     padding: 20px 100px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(27, 25, 25);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -42,10 +43,10 @@ header {
 }
 .barra a{
     font-size: 20px;
-    color: #000;
+    color: #fff;
     font-weight: 500;
     text-decoration: none;
-    margin-left: 40px;
+    margin-left: 50px;
 
 }
 .tarjetas{
@@ -60,6 +61,7 @@ header {
     box-sizing: content-box;
 }
 .prog {
+    font-family: 'Roboto Mono';
     font-size: 2.5em;
     display: flex;
     justify-content: center;
@@ -75,14 +77,21 @@ header {
     object-fit: cover;
     border-radius: 150px;
     margin-top: 5em;
+    justify-content: center;
 }
 .nombre {
     font-size: 4.5em;
-    font-family: 'Playfair', sans-serif;
+    font-family:  'Roboto Mono', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
+    position: relative;
+    margin: 20px;
+}
+.arriba {
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -94,7 +103,7 @@ header {
     margin-left: 5em;
     margin-top: 2em;
     margin-bottom: 2em;
-    margin-right:5em;
+    margin-right: 5em;
 
 }
 .card .face {
@@ -134,12 +143,12 @@ header {
     height: 17em;
     width: 17em;
     color: #f3f3f3;
-    display: flex;
+    display:flexbox;
     flex-direction: column;
     letter-spacing: 1px;
     align-items: center;
-
-
+    justify-content: center;
+    position: relative;
 }
 .card:hover .front {
     transform: perspective(1000em) rotateY(180deg);
@@ -155,11 +164,13 @@ header {
 }
 
 .ht { 
+    font-family: 'Roboto Mono';
 	position: relative; 
 	float: left;
     background-color: rgb(27, 25, 25);
 	color: #fff;
 	font-size: 2.5em;
+    margin: 10px;
 }
 .ht span {
     position:absolute;
@@ -167,7 +178,7 @@ header {
     width:0;
     background-color: rgb(27, 25, 25);
     border-left: 1px solid #000;
-    animation: escribir 5s steps(30) infinite alternate;
+    animation: escribir 3s steps(30) infinite alternate;
 }
 
 @keyframes escribir {
@@ -179,5 +190,6 @@ header {
     margin-top: 35px;
 }
 
-}
+
+
 
