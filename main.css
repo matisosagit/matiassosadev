@@ -88,6 +88,7 @@ header {
     color: white;
     position: relative;
     margin: 20px;
+    text-align: center;
 }
 .arriba {
     justify-content: center;
@@ -171,6 +172,7 @@ header {
 	color: #fff;
 	font-size: 2.5em;
     margin: 10px;
+    text-align: center;
 }
 .ht span {
     position:absolute;
