@@ -85,6 +85,8 @@ header {
 .wame:hover {
     transition: .3s;
     background-color: rgb(67, 49, 224);
+}
+
 .tarjetas{
     display: flex;
     flex-direction:row;
